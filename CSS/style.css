@@ -125,3 +125,11 @@ body > *{
 .controles .iconoControl:hover {
     transform: scale(1.4);
 }
+
+#tiempoActual{
+    display: flex;
+    margin-bottom: 30px;
+    font-weight: 300;
+    left: 30px;
+    
+}

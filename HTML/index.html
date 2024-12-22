@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reproductor de Música</title>
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="icon" href="../IMG/play-circle.svg" type="image/x-icon">
 </head>
 <body>
     <section class="reproductor-musica">
@@ -13,6 +14,7 @@
         <audio id="cancion">
             <source src="" type="audio/mpeg"/>
         </audio>
+        <span id="tiempoActual" style="color: white;">0:00</span>
         <input type="range" value="0" id="progreso"/>
         <div class="controles">
             <button class="atras control">
@@ -20,15 +22,18 @@
             </button>
             
             <button class="boton-reproducir-pausar  iconoControl">
-                <i class="bi bi-play-fill"   id="iconoControl"></i>
+                <i class="bi bi-play-fill"  id="iconoControl"></i>
+                
             </button>
-
             <button class="adelante control">
                 <i class="bi bi-fast-forward-fill"></i>
             </button>
         </div>
     </section>
     <script src="../JS/app.js"></script>
+
+    <!--  Temporizador de las canciones -->
+  
 
     <!--   Imagen por <link rel="" href="https://pixabay.com/es/users/martellcreatives-42248418/">martellcreatives-->
 </body>
